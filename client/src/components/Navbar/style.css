@@ -1,0 +1,24 @@
+/* ul {
+    list-style: none;
+} */
+
+li {
+    /* bullet */
+    color: rgb(178, 95, 255);
+    font-weight: bold;
+    /* display: inline-block; */
+    /* width: 1em; */
+    
+}
+
+.nav-link {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.navbar-brand {
+    justify-content: center;
+}
