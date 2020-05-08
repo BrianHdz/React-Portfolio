@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "src": "gBooksFinder",
+        "altText": "GBooks Finder",
+        "caption": "Find your favorite books with this app utilizing GoogleBooks API",
+        "link": "https://github.com/BrianHdz/Google-Books-Search",
+        "live": "https://shrouded-reef-46884.herokuapp.com/"
+    },
+    {
+        "id": 2,
+        "src": "propertyHunter",
+        "altText": "Property Hunter",
+        "caption": "A group project made to help prospective investors who are looking to invest in a property for traditional rental purposes or short term (AirBnB) style rentals based off their location and past history of other rental properties within the local area.",
+        "link": "https://github.com/toritheterrible/project2",
+        "live": "https://frozen-retreat-48495.herokuapp.com/"
+    },
+    {
+        "id": 3,
+        "src": "societé",
+        "altText": "Societé",
+        "caption": "Find your favorite books with this app utilizing GoogleBooks API",
+        "link": "https://github.com/BrianHdz/Project-3",
+        "live": "https://polar-brushlands-16053.herokuapp.com/"
+    },
+    {
+        "id": 4,
+        "src": "reactEmployeeDirectory",
+        "altText": "React Employee Directory",
+        "caption": "View an employee directory and sort the names based on age or alphabetical order.",
+        "link": "https://github.com/BrianHdz/React-Employee-Directory",
+        "live": "https://brianhdz.github.io/React-Employee-Directory/"
+    },
+    {
+        "id": 5,
+        "src": "noteTaker",
+        "altText": "Note Taker",
+        "caption": "An application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.",
+        "link": "https://github.com/BrianHdz/Note-Taker",
+        "live": "https://brians-note-taker.herokuapp.com/index"
+    },
+    {
+        "id": 6,
+        "src": "passwordGenerator",
+        "altText": "Password Generator",
+        "caption": "Set the slider to adjust how many characters you want in your password. Click generate Password. Answer a few questions to help you set your password options. Then with a click of another button, copy that straight to your clipboard!",
+        "link": "https://github.com/BrianHdz/passwordGenerator",
+        "live": "https://brianhdz.github.io/passwordGenerator/passwordGenerator.html"
+    }
+    
+]
