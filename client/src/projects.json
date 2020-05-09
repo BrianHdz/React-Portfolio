@@ -1,7 +1,8 @@
+
 [
     {
         "id": 1,
-        "src": "gBooksFinder",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/96120349_3550703204958332_6744900372025835520_o.jpg?_nc_cat=102&_nc_sid=e007fa&_nc_ohc=XJPw02fMWZEAX9jLMaS&_nc_ht=scontent-lax3-1.xx&oh=f8c254f5e533e35039c4bdd38e13e121&oe=5EDC3B2D",
         "altText": "GBooks Finder",
         "caption": "Find your favorite books with this app utilizing GoogleBooks API",
         "link": "https://github.com/BrianHdz/Google-Books-Search",
@@ -9,23 +10,23 @@
     },
     {
         "id": 2,
-        "src": "propertyHunter",
-        "altText": "Property Hunter",
-        "caption": "A group project made to help prospective investors who are looking to invest in a property for traditional rental purposes or short term (AirBnB) style rentals based off their location and past history of other rental properties within the local area.",
-        "link": "https://github.com/toritheterrible/project2",
-        "live": "https://frozen-retreat-48495.herokuapp.com/"
-    },
-    {
-        "id": 3,
-        "src": "societé",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/96867507_3550703261624993_7957393274891665408_o.jpg?_nc_cat=103&_nc_sid=e007fa&_nc_ohc=9irbopH_K_oAX_tZTzN&_nc_ht=scontent-lax3-1.xx&oh=2db55519b6d95c82c83c4f332702841b&oe=5EDB6796",
         "altText": "Societé",
-        "caption": "Find your favorite books with this app utilizing GoogleBooks API",
+        "caption": "Final group project in class mixes Spotify, YouTube, Twitter chat with built in LogIn.",
         "link": "https://github.com/BrianHdz/Project-3",
         "live": "https://polar-brushlands-16053.herokuapp.com/"
     },
     {
+        "id": 3,
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/96142821_3550707051624614_2821768911899328512_o.jpg?_nc_cat=100&_nc_sid=e007fa&_nc_ohc=6pditqXO1McAX80SoxQ&_nc_ht=scontent-lax3-1.xx&oh=2b9182c5aac6fc9cc99e921c21598382&oe=5EDBF00B",
+        "altText": "The Chef's Pick",
+        "caption": "Add ingredients you want to cook with in the search bar and find awesome recipies",
+        "link": "https://github.com/BrianHdz/Project1",
+        "live": "https://brianhdz.github.io/Project1/#"
+    },
+    {
         "id": 4,
-        "src": "reactEmployeeDirectory",
+        "image": "https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/95343605_3550703154958337_9010385141222080512_o.jpg?_nc_cat=111&_nc_sid=e007fa&_nc_ohc=jJ3zMonIroAAX-NYJ2m&_nc_ht=scontent-lax3-2.xx&oh=321381b7a26318fd752f9ee729ff4330&oe=5EDCDF9E",
         "altText": "React Employee Directory",
         "caption": "View an employee directory and sort the names based on age or alphabetical order.",
         "link": "https://github.com/BrianHdz/React-Employee-Directory",
@@ -33,17 +34,17 @@
     },
     {
         "id": 5,
-        "src": "noteTaker",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/95497073_3550703164958336_164270361494421504_o.jpg?_nc_cat=105&_nc_sid=e007fa&_nc_ohc=8T6upSAUn3UAX8ZTFy-&_nc_ht=scontent-lax3-1.xx&oh=f27da634905dd8f1cafcfb2690fbe674&oe=5EDCE9D1",
         "altText": "Note Taker",
-        "caption": "An application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.",
+        "caption": "Write, save, and delete notes using express to modify note data from a JSON file.",
         "link": "https://github.com/BrianHdz/Note-Taker",
         "live": "https://brians-note-taker.herokuapp.com/index"
     },
     {
         "id": 6,
-        "src": "passwordGenerator",
+        "image": "https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/96704851_3550703228291663_3332126784622690304_o.jpg?_nc_cat=104&_nc_sid=e007fa&_nc_ohc=LGHYpgi5FGYAX-8Ekzx&_nc_ht=scontent-lax3-1.xx&oh=3acc8776dc3957f15f163c62642810a1&oe=5EDD805C",
         "altText": "Password Generator",
-        "caption": "Set the slider to adjust how many characters you want in your password. Click generate Password. Answer a few questions to help you set your password options. Then with a click of another button, copy that straight to your clipboard!",
+        "caption": "Set the slider & options. Then copy your new password to the clipboard!",
         "link": "https://github.com/BrianHdz/passwordGenerator",
         "live": "https://brianhdz.github.io/passwordGenerator/passwordGenerator.html"
     }

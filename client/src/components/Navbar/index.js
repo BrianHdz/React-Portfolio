@@ -17,6 +17,7 @@ function Navbar() {
             <strong>Brian Hernandez</strong>
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="/">Main Page</a>
             <Link to="/saved"
                 className={
                   window.location.pathname === "/search"
@@ -27,7 +28,7 @@ function Navbar() {
             </Link>
               <a class="dropdown-item" href="https://www.linkedin.com/in/brianhernandez487/">LinkedIn</a>
               <a class="dropdown-item" href="https://github.com/BrianHdz">GitHub</a>
-              <a class="dropdown-item" href="/">Main Page</a>
+              
             </div>
           </div>
           </Col>

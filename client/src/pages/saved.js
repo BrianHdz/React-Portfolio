@@ -1,34 +1,24 @@
-import React, { Component, useState } from 'react';
+import React, { Component } from 'react';
+import projects from "../projects.json";
 import logo from "../logo.svg";
 import "../App.css";
 
+import { Container } from "../components/Grid";
 import Navbar from "../components/Navbar";
-import { Col, Row, Container } from "../components/Grid";
-import BoxResults from '../components/BoxResults';
+import Wrapper from "../components/Wrapper";
+import Title from "../components/Title";
+import ProjectCard from '../components/BoxResults';
 import Footer from "../components/Footer";
-
-
-import API from "../utils/searchApi";
 
 class Saved extends Component {
 
     state = {
-        getBooks: [],
-    }
-
-    componentDidMount() {
-        API.getBooks()
-            .then(getBooks => this.setState({
-                getBooks: getBooks
-            })).catch(
-                err => console.log(err)
-            )
+        projects
     }
 
     render() {
         return (
             <div className="App">
-
                 <Navbar />
                 <div className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
@@ -37,28 +27,24 @@ class Saved extends Component {
                 <p className="App-intro">
                     You found the secret message! Nothing gets by you.
             </p>
-<br></br>
-                <Container fluid>
+                <Container>
 
-                    <Row>
-                        <Col size="md-12 sm-12">
-                            <div className="justify-content-center">
-                                <h3>A few works in progress...</h3>
-                            </div>
-                        </Col>
-                    </Row>
-
-                    <Row>
-                        <Col size="md-3 sm-12"></Col>
-                        <Col size="md-6 sm-12" className="justify-content-center">
-                            <BoxResults books={this.state.getBooks} />
-                        </Col>
-                        <Col size="md-3 sm-12"></Col>
-                    </Row>
-
-
-
+                    <Wrapper>
+                        <Title>A few works in progress...</Title>
+                        {this.state.projects.map(item => (
+                            <ProjectCard
+                                id={item.id}
+                                key={item.id}
+                                image={item.image}
+                                altText={item.altText}
+                                caption={item.caption}
+                                link={item.link}
+                                live={item.live}
+                            />
+                        ))}
+                    </Wrapper>
                 </Container>
+
                 <Footer />
             </div>
         );
